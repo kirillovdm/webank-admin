@@ -1,0 +1,653 @@
+ <!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Barebones</title>
+        <meta name="description" content="Barebones HTML project">
+        <meta name="viewport" content="width=1024, minimal-ui">
+
+        <!-- Favicon block -->
+        <!-- Images generated from a single 260x260 image by http://realfavicongenerator.net/ -->
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+
+        <link rel="icon" type="image/png" href="favicon-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+
+        <meta name="msapplication-TileColor" content="#d10d3f">
+        <meta name="msapplication-TileImage" content="mstile-144x144.png">
+        <meta name="msapplication-config" content="browserconfig.xml">
+        <!-- / Favicon block -->
+
+        <link rel="stylesheet" href="styles/main.css">
+
+        
+
+        
+        <!-- Cached build -->
+        <script src="scripts/vendor/modernizr-2.8.3.min.js"></script>
+        <!-- / 
+
+        <!-- -->
+
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="layout-header">
+        	<div class="left-block">
+        		<form action="">
+
+        			<button type="submit" class="search-btn"></button>
+        			<input type="search" name="head_search" id="head-search" placeholder="Search...">
+        		</form>
+        	</div>
+        	<div class="right-block">
+        		<div class="webank-admin">Webank  ADMIN</div>
+        		<div class="head-line"></div>
+        		<div class="notifications">
+        			<div class="icon-item icon-bell-admin"></div>
+        			<div class="notification-num">4</div>
+        		</div>
+        		<div class="messages">
+        			<div class="icon-item icon-mail-admin"></div>
+        			<div class="notification-num">3</div>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="layout-aside">
+	<div class="profile-info">
+		<div class="prof-photo">
+			<img src="images/prof-photo.jpg" alt="prof-photo">
+		</div>
+		<div class="prof-indicator"></div>
+		<div class="collapse-block">
+            <div class="collapse-item prof-name-collapse">
+	            <a class="collapsed" role="button" data-toggle="collapse" href="#prof-name" aria-expanded="false" aria-controls="prof-name">
+	                <div class="prof-name">Alex Zinchuk<div class="icon-collapse-arrow"></div></div>
+					<div class="prof-department">IT отдел</div>
+	            </a>
+	            <div class="collapse" id="prof-name">
+	                <div class="well">
+	                    <ul>
+							<li>
+								<a href="personal-office.html" class="">
+									Личный кабинет 
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Выйти
+								</a>
+							</li>
+						</ul>
+	                </div>
+	            </div>
+            </div>
+        </div>
+	</div>
+
+	<div class="aside-content">
+
+		<div class="aside-item">
+			<a href="credit-table.html" class="aside-item-header">
+				<div class="icon-item"></div> 
+	        	<div class="item-name">Заявки (кредит.)</div> 
+	        	<div class="notification-num">2</div> 
+	        	<div class="icon-collapse-arrow"></div>
+			</a>
+			<div class="aside-item-cont">
+				<ul>
+					<li>
+						<a href="" class="active">
+							На рассмотрении 
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Новая 
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Торги 
+							<div class="notification-num">7</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Синдикат 
+							<div class="notification-num">125</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Оформление 
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Закрыта 
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							На обслуживании 
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="aside-item">
+			<a href="invest-table.html" class="aside-item-header">
+				<div class="icon-item"></div> 
+	        	<div class="item-name">Заявки (инвест.)</div> 
+	        	<div class="notification-num">11</div> 
+	        	<div class="icon-collapse-arrow"></div>
+	        </a>
+	        <div class="aside-item-cont">
+				<ul>
+					<li>
+						<a href="">
+							На рассмотрении
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Новая
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="aside-item">
+			<a href="dep-table.html" class="aside-item-header">
+				<div class="icon-item"></div> 
+	        	<div class="item-name">Заявки (депоз.)</div> 
+	        	<div class="notification-num">12</div> 
+	        	<div class="icon-collapse-arrow"></div>
+	        </a>
+	        <div class="aside-item-cont">
+				<ul>
+					<li>
+						<a href="">
+							На рассмотрении
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Новая
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="aside-item">
+			<a href="users-table.html" class="aside-item-header">
+				<div class="icon-item"></div> 
+	        	<div class="item-name">Пользователи</div> 
+	        	<div class="notification-num">11</div> 
+	        </a>
+	        <div class="aside-item-cont">
+				<ul>
+					<li>
+						<a href="">
+							На рассмотрении
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Новая
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="aside-item active">
+			<a href="employees.html" class="aside-item-header">
+				<div class="icon-item"></div> 
+	        	<div class="item-name">Сотрудники</div>
+	        	<div class="icon-collapse-arrow"></div>
+	        </a>
+	        <div class="aside-item-cont">
+				<ul>
+					<li>
+						<a href="employees.html">
+							Фронт офис
+						</a>
+					</li>
+					<li>
+						<a href="employees.html">
+							Бек офис
+						</a>
+					</li>
+					<li>
+						<a href="employees.html">
+							Кредитный Комитет
+						</a>
+					</li>
+					<li>
+						<a href="employees.html">
+							Служба безопасности
+						</a>
+					</li>
+					<li>
+						<a href="employees.html">
+							Юридическая Служба
+						</a>
+					</li>
+					<li>
+						<a href="employees.html">
+							Бухгалтеры 1С
+						</a>
+					</li>
+					<li>
+						<a href="employees.html">
+							Контролер
+						</a>
+					</li>
+					<li>
+						<a href="employees.html">
+							Служба ИТ
+						</a>
+					</li>
+					<li>
+						<a href="employees.html">
+							Финмониторинг
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="aside-item">
+			<a href="#" class="aside-item-header">
+				<div class="icon-item"></div> 
+	        	<div class="item-name">Ticket</div> 
+	        	<div class="notification-num">2</div>
+	        	<div class="icon-collapse-arrow"></div>
+	        </a>
+	        <div class="aside-item-cont">
+				<ul>
+					<li>
+						<a href="">
+							На рассмотрении
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Новая
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="aside-item">
+			<a href="#" class="aside-item-header">
+				<div class="icon-item"></div> 
+	        	<div class="item-name">Статистика</div>
+	        </a>
+	        <div class="aside-item-cont">
+				<ul>
+					<li>
+						<a href="">
+							На рассмотрении
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Новая
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="aside-item">
+			<a href="#" class="aside-item-header">
+				<div class="icon-item"></div> 
+	        	<div class="item-name">Настройки</div>
+	        </a>
+	        <div class="aside-item-cont">
+				<ul>
+					<li>
+						<a href="">
+							На рассмотрении
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Новая
+							<div class="notification-num">2</div> 
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+
+</div>
+
+        <div class="layout-content asidebg">
+            <div class="layout-container-fluid">
+                <div class="breadcrumbs">
+                    <a class="breadcrumb-item" href="">Заявки</a>
+                    <a class="breadcrumb-item current-breadcrump" href="">Инвестиционные</a>
+                </div>
+                <div class="btn btn-transparent new-empl" data-toggle="modal" data-target="#add-empl">Добавить сотрудника</div>
+                <div class="full-content lead-table lead-empl-table">
+                    <table class="striped center simple in-full-content" border="1">
+                        <thead class="blue-table-head">
+                            <tr>
+                                <td>ID</td>
+                                <td>E-mail</td>
+                                <td>ФИО</td>
+                                <td>Номер телефона</td>
+                                <td>Отдел</td>
+                                <td>Должность</td>
+                            </tr> 
+                        </thead>
+                        <tbody>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+                            <tr data-toggle="modal" data-target="#empl-info">
+                                <td>456987</td>
+                                <td>zhitnik@ua.fm</td>
+                                <td>Житник А.В</td>
+                                <td>(097) 678 67 89</td>
+                                <td>Финансовый</td>
+                                <td>Менеджер</td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div><!--layout-container-->
+        </div><!--layout-content-->
+
+		<div class="modal fade" tabindex="-1" id="add-empl" role="dialog" aria-labelledby="add-empl">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      	<h4>Регистрация сотрудника</h4>
+		      	<div class="form-wrapper">
+		      		<form action="" method="POST">
+		      			<div class="left-col">
+		      				<div class="form-group">
+                                <input class="form-control" type="text" id="input1" placeholder="Фамилия">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" id="input2" placeholder="Имя">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" id="input3" placeholder="Отчество">
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group date" data-provide="datepicker">
+                                    <input type="text" class="form-control date-input" id="birth-date" placeholder="Дата рождения">
+                                    <span class="icon-cg-calendar calendar-general input-group-addon"></span>
+                                </div>
+                            </div>
+
+                            <input type="radio" id="radio1" name="radio">
+                            <label for="radio1" class="radio-label radio-modal">Мужчина</label>
+                            <input type="radio" id="radio2" name="radio">
+                            <label for="radio2" class="radio-label radio-modal">Женщина</label>
+
+                            <div class="form-group">
+                                <input class="form-control" type="tel" id="input4" placeholder="Телефон">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" id="input5" placeholder="E-mail">
+                            </div>
+		      			</div>
+		      			<div class="right-col">
+		      				<div class="form-group label-left sel">
+                                <select name="select1" class="selectize" id="input6" placeholder="Отдел">
+                                	<option value="value0">Отдел</option>
+                                    <option value="value1">Фронт офис</option>
+                                    <option value="value2">Бек офис</option>
+                                    <option value="value3">Кредитный Комитет</option>
+                                    <option value="value4">Служба безопасности</option>
+                                    <option value="value5">Юридическая Служба</option>
+                                    <option value="value6">Бухгалтеры 1С</option>
+                                    <option value="value7">Контролер</option>
+                                    <option value="value8">Служба ИТ</option>
+                                    <option value="value9">Финмониторинг</option>
+                                </select>
+                            </div>
+                            <div class="form-group label-left sel">
+                                <select name="select1" class="selectize" id="input7" placeholder="Должность">
+                                    <option value="value0">Должность</option>
+                                    <option value="value1">Глава отделения</option>
+                                    <option value="value2">Менеджер</option>
+                                    <option value="value3">Бухгалтер</option>
+                                </select>
+                            </div>
+                            <div class="form-group date-form-group">
+                                <div class="input-group date" data-provide="datepicker">
+                                    <input type="text" class="form-control date-input" id="accept-date" placeholder="Дата рождения">
+                                    <span class="icon-cg-calendar calendar-general input-group-addon"></span>
+                                </div>
+                            </div>
+                            <div class="btns-block">
+                            	<div class="btn btn-transparent btn-cancel" data-dismiss="modal" aria-label="Close">Отменить</div>
+                            	<div class="btn btn-transparent btn-add-empl" type="submit">Добавить</div>
+                            </div>
+		      			</div>
+		      		</form>
+		      	</div>
+		      
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" tabindex="-1" id="empl-info" role="dialog" aria-labelledby="empl-info">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		    	<div class="icon-del" data-dismiss="modal" aria-label="Close"></div>
+		    	
+		      <h4>Сотрудник <span class="empl-id">ID 1344-17</span></h4>
+		      <table class="modal-table">
+		      	<tbody>
+
+
+		      		<tr>
+		      			<td>Дата регистрации</td>
+		      			<td>12.12.2015</td>
+		      		</tr>
+		      		<tr>
+		      			<td>ФИО</td>
+		      			<td>Петров Александр Сергеевич</td>
+		      		</tr>
+		      		<tr>
+		      			<td>Пол</td>
+		      			<td>Муж</td>
+		      		</tr>
+		      		<tr>
+		      			<td>Дата рождения</td>
+		      			<td>10.11.1980</td>
+		      		</tr>
+		      		<tr>
+		      			<td>E-mail</td>
+		      			<td>zhitnik@ua.fm</td>
+		      		</tr>
+		      		<tr>
+		      			<td>Моб. телефон</td>
+		      			<td>097 527 56 97</td>
+		      		</tr>
+		      		<tr>
+		      			<td>Рабочий телефон</td>
+		      			<td>044 567 67 67</td>
+		      		</tr>
+		      		<tr>
+		      			<td>Отдел</td>
+		      			<td>Финансовый</td>
+		      		</tr>
+		      		<tr>
+		      			<td>Должность</td>
+		      			<td>Начальник</td>
+		      		</tr>
+		      	</tbody>
+		      </table>
+		    </div>
+		  </div>
+		</div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+        
+
+        <!-- -->
+
+        <script>window.jQuery || document.write('<script src="scripts/vendor/jquery-2.1.3.min.js"><\/script>')</script>
+
+        
+
+        
+        <!-- Cached build -->
+        <script src="scripts/main.min.js"></script>
+        <!-- / 
+
+        <!-- -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-XXXXX-X', 'auto');
+            ga('send', 'pageview');
+        </script> -->
+
+	
+    </body>
+</html>
+                  
+                  
